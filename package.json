@@ -4,8 +4,8 @@
     "type": "module",
     "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server.js",
-    "start": "cross-env NODE_ENV=production node backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "cross-env NODE_ENV=production node server/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix client"
   },
     "devDependencies": {
         "concurrently": "^8.2.2",
